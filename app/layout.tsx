@@ -7,8 +7,8 @@ import { ThemeProvider } from "@/components/theme-provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-   title: "IMPHNEN - Ingin Menjadi Programmer Handal?",
-   description: "Komunitas belajar programming untuk semua level",
+   title: "Portofolio Hidayat",
+   description: "Portofolio Hidayat",
 };
 
 export default function RootLayout({
