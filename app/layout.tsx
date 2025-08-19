@@ -10,10 +10,15 @@ export const metadata: Metadata = {
    title: "Portofolio Hidayat",
    description: "Portofolio Hidayat",
    icons: {
-      icon: "/logo.png",
-      shortcut: "/logo.png",
-      apple: "/logo.png",
+      icon: [
+         { url: '/favicon.ico' },
+         { url: '/logo.png', type: 'image/png' },
+      ],
+      apple: [
+         { url: '/logo.png' },
+      ],
    },
+   manifest: '/site.webmanifest',
 };
 
 export default function RootLayout({
