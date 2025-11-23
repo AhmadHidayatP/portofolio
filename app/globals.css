@@ -47,6 +47,9 @@
     --input: 217.2 32.6% 17.5%;
     --ring: 224.3 76.3% 48%;
   }
+  .theme {
+    --animate-meteor: meteor 5s linear infinite;
+  }
 }
 
 @layer base {
@@ -73,4 +76,20 @@
 
 .animate-float {
   animation: float 3s ease-in-out infinite;
+}
+
+@theme inline {
+  @keyframes meteor {
+  0% {
+    transform: rotate(var(--angle)) translateX(0);
+    opacity: 1;
+    }
+  70% {
+    opacity: 1;
+    }
+  100% {
+    transform: rotate(var(--angle)) translateX(-500px);
+    opacity: 0;
+    }
+  }
 }

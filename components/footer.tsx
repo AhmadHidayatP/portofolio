@@ -7,17 +7,7 @@ export default function Footer() {
          <div className="container px-4 md:px-6">
             <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-5">
                <div className="space-y-4">
-                  <div className="flex items-center gap-2">
-                     <div className="relative overflow-hidden rounded">
-                        <Image
-                           src="/logo.png"
-                           alt="IMPHNEN Logo"
-                           width={48}
-                           height={48}
-                           className="object-cover"
-                        />
-                     </div>
-                  </div>
+                  <h3 className="text-lg font-bold">Contact</h3>
                   <div className="flex space-x-4">
                      <Link
                         href="https://github.com/ahmadhidayatp"

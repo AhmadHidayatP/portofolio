@@ -34,7 +34,7 @@ export default function Header() {
                <div className="relative overflow-hidden rounded">
                   <Image
                      src="/logo.png"
-                     alt="IMPHNEN Logo"
+                     alt="Logo"
                      width={64}
                      height={64}
                      className="object-cover"
@@ -45,11 +45,11 @@ export default function Header() {
             {/* Desktop Navigation */}
             <nav className="hidden md:flex items-center gap-8">
                <Link
-                  href="#skill"
+                  href="#fitur"
                   className="text-sm font-medium relative group"
                >
                   <span className="transition-colors hover:text-primary">
-                     Skill
+                     About Me
                   </span>
                   <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full"></span>
                </Link>
@@ -98,11 +98,11 @@ export default function Header() {
             <div className="md:hidden border-t bg-background/95 backdrop-blur-md">
                <nav className="container flex flex-col py-4 text-center">
                   <Link
-                     href="#skill"
+                     href="#fitur"
                      className="py-3 text-sm font-medium border-b border-border/50"
                      onClick={() => setMobileMenuOpen(false)}
                   >
-                     Skill
+                     About Me
                   </Link>
                   <Link
                      href="#experience"

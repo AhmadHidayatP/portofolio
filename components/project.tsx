@@ -25,7 +25,7 @@ export default function LearningResources() {
       iconBg: "bg-green-100 dark:bg-green-900",
       title: "Customer Satisfaction Survey System",
       subtitle: "Information Technology Department",
-      description: "A web-based survey system designed to collect and analyze customer satisfaction data with comprehensive reporting features.",
+      description: "A web-based survey system designed to collect and analyze customer satisfaction data with comprehensive reporting Skills.",
       technologies: ["PHP", "MySQL", "Chart.js", "CSS", "Laravel"],
       color: "from-green-500 to-green-700",
     },

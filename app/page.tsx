@@ -1,8 +1,8 @@
 import Header from "@/components/header"
 import Hero from "@/components/hero"
-import Features from "@/components/features"
-import Community from "@/components/community"
-import LearningResources from "@/components/learning-resources"
+import Skills from "@/components/skills"
+import Experience from "@/components/experience"
+import Project from "@/components/project"
 import Footer from "@/components/footer"
 
 export default function Home() {
@@ -11,9 +11,9 @@ export default function Home() {
       <Header />
       <main className="flex-1">
         <Hero />
-        <Features />
-        <Community />
-        <LearningResources />
+        <Skills />
+        <Experience />
+        <Project />
       </main>
       <Footer />
     </div>

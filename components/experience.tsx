@@ -26,7 +26,7 @@ export default function Experience() {
       title: "Chairman",
       company: "UKM Bhakti Karya Mahasiswa",
       period: "2024 – 2025",
-      description: "Led student organization activities and managed team coordination for community service programs.",
+      description: "Led student organization activities and managed team coordination for Experience service programs.",
     },
     {
       icon: <Building2 className="h-6 w-6 text-purple-600 dark:text-purple-400" />,

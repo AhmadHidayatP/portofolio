@@ -5,11 +5,11 @@ import { useInView } from "framer-motion"
 import { BookOpen, Code, Laptop, Users } from "lucide-react"
 import { motion } from "framer-motion"
 
-export default function Features() {
+export default function Skills() {
   const ref = useRef(null)
   const isInView = useInView(ref, { once: true, amount: 0.2 })
 
-  const features = [
+  const Skills = [
     {
       icon: <Code className="h-6 w-6 text-primary" />,
       title: "Website Development",
@@ -88,7 +88,7 @@ export default function Features() {
           initial="hidden"
           animate={isInView ? "visible" : "hidden"}
         >
-          {features.map((feature, index) => (
+          {Skills.map((feature, index) => (
             <motion.div
               key={index}
               className="group relative overflow-hidden rounded-xl border bg-background/50 backdrop-blur-sm p-6 transition-all hover:shadow-md hover:shadow-primary/5 hover:border-primary/50"
